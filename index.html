@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Samura1</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo"></a>
+        <div class="form">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__text" href="#">Tatu studioSAMURA1</a></li>
+                <li class="header__item"><a class="header__link"  href="#">Главная</a></li>
+                <li class="header__item"><a class="header__link"  href="#seans">Сеансы</a></li>
+                <li class="header__item"><a class="header__link"  href="#comment">Отзывы</a></li>
+                <li class="header__item"><a class="header__link"  href="#">Контакты</a></li>
+                <li class="header__item"><a class="header__link"  href="#about">Обо мне</a></li>
+                <li class="header__item"><button class="book-now-button" onclick="openModal()" href="#">Запись</button>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal()">&times;</span>
+                      <h2 class="text_modal">Запись на приём</h2>
+                      <form>
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name"><br>
+                
+                        <label for="phone">Телефон:</label>
+                        <input type="text" id="phone" name="phone"><br>
+                
+                        <button class="submit-button" type="submit">Забронировать</button>
+                      </form>
+                    </div>
+                  </div>
+                
+                  <script>
+                    // Открыть всплывающее окно
+                    function openModal() {
+                      document.getElementById("myModal").style.display = "block";
+                    }
+                
+                    // Закрыть всплывающее окно
+                    function closeModal() {
+                      document.getElementById("myModal").style.display = "none";
+                    }
+                  </script>
+                </li>
+            </ul>
+            
+        </nav>
+    </header> 
+
+    <div class="container">
+        <img src="images/main.png" alt="image">
+        <div class="text">
+          <h2>Любые татуировки</h2>
+          <p>Ваш эскиз\поможем с выбором</p>
+        </div>
+      </div>
+
+      <div class="text__wrapper" id="seans">Сеансы</div>    
+
+
+<div class="wrapper">
+    <div class="box__tattoo">
+        <img src="images/2.png" alt="">
+    </div>
+    <div class="box__tattoo_1">
+        <img src="images/1.png" alt="">
+    </div>
+    <div class="box__tattoo_2">
+        <img src="images/3.png" alt="">
+    </div>
+    <div class="box__tattoo_3">
+        <img src="images/4.png" alt="">
+    </div>
+    <div class="box__tattoo_4">
+        <img src="images/5.png" alt="">
+    </div>
+</div>
+
+
+<div class="comment" id="comment">Отзывы</div>
+
+
+<div class="container__box">
+        <div class="box__comment">
+            <h2>samura1</h2>
+            <p class="box__text">Прекрасный салон, пришли с подругой первый раз бить тату, и нам сделали скидку. Мастер сделал всё быстро и красиво. Обязательно придём ещё раз</p>
+        </div>
+            <div class="box__comment__big">
+                <h2>samura1</h2>
+                <p class="box__text">Я в полном восторге! Давно хотел тату и никак не решался. Этот салон мне посоветовали друзья, они уже давно здесь забиваются))) Для начала я решил просто проконсультироваться, но после я сразу же решил делать тату. Теперь я счастливый обладатель новой тату на шее) Я понял, что на этом не остановлюсь, буду постоянным клиентком этого салона! Тем более теперь у меня скидочная карта, спасибо!</p>
+            </div>
+        <div class="box__comment">
+            <h2>samura1</h2>
+            <p class="box__text">В этом тату салоне вас ждёт: прекрасная клиентооринтируемость, добрые тату мастера которые знают своё дело, волшебная атмосфера японии и самое главное приятные цены на татуировки.</p>
+        </div>
+    </div>
+
+
+<div class="header-container" id="about">
+    <h1>Об Samura1</h1>
+  </div>
+  <div class="content-container">
+    <div class="text-container">
+<pre>«Samura1» — тату-салон в Москве, созданный профессионалами
+Наш тату-салон предоставляет высококлассное и 
+квалифицированное обслуживание в благоприятной и безопасной
+обстановке. Мастера нашего салона имеют богатый опыт по
+нанесению татуировок. Но, конечно, главной гордостью тату-студии
+являются положительные отзывы клиентов, которые
+воспользовались нашими услугами. Сегодня многие из них стали
+постоянными посетителями и частью нашей семьи.
+Мы тщательно отбираем эскизы и стили татуировок, которые
+представлены в каталоге. У нас всегда можно нанести настоящий
+шедевр художественного тату, который способен удивить даже
+самого требовательного ценителя искусства. Также мы с радостью
+ответим на все вопросы о значении понравившегося вам tattoo.
+</pre>
+    </div>
+    <div class="image-container">
+      <img src="images/6 samurai.png" alt="image">
+    </div>
+  </div>
+  <div class="spacer"></div>
+  <div class="content-container">
+    <div class="image-container">
+      <img src="images/7 samurai.png" alt="image">
+    </div>
+    <div class="text-container_1">
+<pre>Почему стоит выбрать именно наш тату-салон?
+Сегодня в Москве открыто множество тату-студий, каждая из которых
+зазывает к себе. Мы не гонимся за рейтингами, но мы способны
+гарантировать каждому нашему клиенту следующее:
+-Все работы будут проводиться в условиях абсолютной стерильности
+ и безопасности для вашего здоровья;
+-С вами будут работать исключительно опытные мастера художественной
+татуировки;
+-Использование лучших красок и инструментов из США и Японии;
+-Сделанное у нас тату станет вашей гордостью;
+-Скидка на первую татуировку;
+-Большое количество хороших отзывов;
+-Огромное количество эскизов на любой вкус;
+-Приятная музыка и атмосфера;
+-10% скидка на татуировку в честь дня рождения;
+</pre>
+</div>
+</div>
+   
+
+<div class="price-container">
+    <h2>Стоимость сеансов</h2>
+    <span class="price-item">
+      <p>Консультация мастера</p>
+      <p>1000 рублей</p>
+    </span>
+    <span class="price-item">
+      <p>Тату до 15 см</p>
+      <p>5500 рублей</p>
+    </span>
+    <span class="price-item">
+      <p>С выбором эскиза</p>
+      <p>6000 рублей</p>
+    </span>
+    <span class="price-item">
+      <p>Забить рукав</p>
+      <p>13500 рублей</p>
+    </span>
+    <span class="price-item">
+      <p>Большие тату на несколько сеансов</p>
+      <p>?</p>
+    </span>
+    <div class="image_container">
+      <img src="images/sertificate.png" alt="image">
+    </div>
+  </div>
+  
+  <div class="container__footer">
+    <h2 class="title">Тату салон Samura1</h2>
+    <p class="address">Дмитровское шоссе 110а</p>
+    <p class="metro">М.Селигерская</p>
+    <p class="booking">Запись договоренности</p>
+    <a href="#" class="book-btn">Записаться на сеанс</a>
+  </div>
+
+
+  <footer>
+    <div class="container_footer">
+      <div class="footer-item" id="footer">
+        <h3>О нас</h3>
+        <p>Мы - тату салон, который занимается качественной набивкой татуировок</p>
+      </div>
+      <div class="footer-item">
+        <h3>Контакты</h3>
+        <p>Наш адрес: ул. Пушкина, д. 10, Москва, Россия</p>
+        <p>Телефон: +7 (999) 880-55-9</p>
+      </div>
+      <div class="footer-item">
+        <h3>Следите за нами</h3>
+        <p>Мы в социальных сетях:</p>
+        <ul>
+          <li><a href="#">VK</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Яндекс</a></li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h3>Подписка на новости</h3>
+        <form action="#" method="post">
+          <label for="email">Введите ваш email:</label>
+          <input type="email" name="email" id="email" required>
+          <button type="submit">Подписаться</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+</html>
